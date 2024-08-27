@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    
+    <!-- HEADER START -->
+    <header class="bg-white dark:bg-[#000000ec] py-5 shadow-bshadow border-dotted border-b dark:border-blue-500">
+        <div class="container px-8 mx-auto max-w-[1310px]">
+            <div class="flex justify-between items-center">
+                <a href="./home.html">
+                    <img class="dark:invert hover:animate-spin w-[30px] h-[55px] md:w-[60px] md:h-[80px]" src="./assets/icons/logo-orange.svg" alt="logo">
+                </a>
+                
+                <nav class="hidden md:block">
+                    <ul class="flex items-center dark:invert">
+                        <li>
+                            <a class="text-lg m-6 group relative w-max" href="./home.html">
+                            <span class="italic font-semibold text-orange-500">Home</span>
+                            <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a class="text-lg m-6 group relative w-max" href="./service.html">
+                            <span class="italic font-semibold text-orange-500">Service</span>
+                            <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a class="text-lg m-6 group relative w-max" href="./about.html">
+                            <span class="italic font-semibold text-orange-500">About</span>
+                            <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <!-- <a class="text-lg m-6 group relative w-max" href="./pages.html">
+                            <span class="italic font-semibold text-orange-500">Pages</span>
+                            <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-lg m-6 group relative w-max" href="./blocks.html">
+                            <span class="italic font-semibold text-orange-500">Blocks</span>
+                            <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a class="text-lg m-6 group relative w-max" href="./contact.html">
+                            <span class="italic font-semibold text-orange-500">Contact</span>
+                            <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-orange-600 group-hover:w-3/6"></span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="btn relative inline-flex items-center justify-start overflow-hidden font-medium transition-all bg-orange-100 rounded hover:bg-white group py-1.5 px-2.5" href="tel:+998931633839" role="button">
+                            <span class="w-56 h-48 rounded bg-orange-600 absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                            <span class="relative w-full text-left text-orange-600 transition-colors duration-300 ease-in-out group-hover:text-white italic">Call Me📞</span>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </nav>
+                <button class="open-btn text-black dark:text-white md:hidden block" type="button">☰</button>
+            </div>
+        </div>
+        
+        <!-- HIDDEN HEADER START -->
+        <div class="hidden-header bg-gradient-to-b to-white from-black fixed top-0 ring-0 bottom-0 right-0 z-50 flex flex-col justify-between bg-dark w-3/4 h-full pt-[38px] transition-all -translate-y-[150%]">
+            <div class="container mx-auto px-8">
+                <div class="flex justify-end mb-[30px]">
+                    <button class="border-none bg-transparent italic close-btn text-white" type="button">
+                        ☰
+                    </button>
+                </div>
+                <hr class="text-fafa">
+                <nav class="flex justify-center w-full">
+                    <ul class="w-full text-center py-[60px] gap-5 flex flex-col">
+                        
+                        <li>
+                            <a class="font-normal text-[20px] leading-[14px] tracking-[2px] text-white hover:text-blue-400 active:opacity-60" href="./home.html">
+                                Home🏡
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a class="font-normal text-[20px] leading-[14px] tracking-[2px] text-white hover:text-blue-400 active:opacity-60" href="./service.html">
+                                Service⚡
+                            </a>
+                        </li> -->
+                        <li>
+                            <a class="font-normal text-[20px] leading-[14px] tracking-[2px] text-white hover:text-blue-400 active:opacity-60" href="./about.html">
+                                About✅
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a class="font-normal text-[20px] leading-[14px] tracking-[2px] text-white hover:text-blue-400 active:opacity-60" href="./blocks.html">
+                                Blocks💡
+                            </a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-[20px] leading-[14px] tracking-[2px] text-white hover:text-blue-400 active:opacity-60" href="./pages.html">
+                                Pages📃
+                            </a>
+                        </li> -->
+                        <li>
+                            <a class="font-normal text-[20px] leading-[14px] tracking-[2px] text-white hover:text-blue-400 active:opacity-60" href="./contact.html">
+                                Contact📞
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-black bg-white italic dark:text-white dark:bg-black hover:bg-blue-400 hover:text-white dark:border-[#fff] border border-[#dacbcb] py-1 px-2 rounded-sm dark:hover:text-black dark:hover:bg-white dark:hover:border-[#03030387]" href="tel:+998931633839" type="button">Call Me</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>        
+        <!-- HIDDEN HEADER END -->
+        
+    </header>
+    <!-- HEADER END -->
+    
+    <!-- MAIN -->
+    <main>
+        <!-- ABOUT START -->
+        <section class="py-20 dark:bg-gradient-to-t from-slate-800 to-black">
+            <div class="container px-8 mx-auto max-w-[1310px]">
+                <div class="md:flex justify-center">
+                    <img class="mb-10 md:mb-0 md:mr-[50px] lg:mr-[100px] w-[350px] h-[400px]  lg:w-[540px] lg:h-[600px]" src="./assets/img/photo.webp" alt="img">
+                    
+                    <div class="w-full md:max-w-[300px] lg:max-w-[350px] h-[440px] border-dotted md:border-none lg:border-y border-blue-400">
+                        
+                        <h2 class="font-bold text-[40px] leading-[42px] tracking-[6px] text-dark pt-[12px]  mb-[28px] animate__animated animate__rollIn dark:invert md:text-orange-950">
+                            About Me
+                        </h2>
+                        
+                        <p class="font-normal md:font-bold hover:opacity-70 md:text-[12px] md:leading-[23px] lg:text-[16px] lg:leading-[30px] mb-[24px] text-black/70 dark:text-white md:text-orange-950">
+                            I&#39;m a front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I&#39;m based in Fergana, Uzbekiston, but I&#39;m happy working remotely and have experience in remote teams. When I&#39;m not coding, you&#39;ll find me outdoors. I love being out in nature whether that&#39;s going for a walk, run or cycling. I&#39;d love you to check out my work.
+                        </p>
+                        
+                        <button class="dark:invert relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
+                            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                            Pink to orange
+                            </span>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT END -->
+    </main>
+    <!-- MAIN -->
+
+    <!-- FOOTER START -->
+    <footer class="py-10 dark:bg-gradient-to-t to-slate-800 from-black shadow-bshadow">
+        <div class="container px-8 mx-auto max-w-[1310px]">
+            <div class="flex justify-between items-start gap-8 mb-10">
+                <a href="./home.html">
+                    <img class="dark:invert hover:animate-[swing_1s_ease-in-out_1] w-[60px] h-[80px]" src="./assets/icons/thunder-logo.svg" alt="logo">
+                </a>
+                
+                <div class="md:flex gap-5">
+                    <nav class="max-w-[500px]">
+                        <ul class='flex gap-5 md:gap-10'>
+                            <li>
+                                <ul class="flex flex-col gap-2 md:gap-5">
+                                    <li class="hover:animate-[swing_1s_ease-in-out_1] dark:hover:animate-[swing_1s_ease-in-out_1]"><a class="text-black dark:text-white italic border-dashed border-b pb-1 border-gray-500 hover:delay-[300ms] hover:border-dashed hover:border-t hover:border-fuchsia-600 hover:border-b-0 dark:hover:text-fuchsia-400 hover:text-fuchsia-600 font-semibold" href="#">Home</a></li>
+                                    <li class="hover:animate-[swing_1s_ease-in-out_1] dark:hover:animate-[swing_1s_ease-in-out_1]"><a class="text-black dark:text-white italic border-dashed border-b pb-1 border-gray-500 hover:delay-[300ms] hover:border-dashed hover:border-t hover:border-fuchsia-600 hover:border-b-0 dark:hover:text-fuchsia-400 hover:text-fuchsia-600 font-semibold" href="#">Service</a></li>
+                                    <li class="hover:animate-[swing_1s_ease-in-out_1] dark:hover:animate-[swing_1s_ease-in-out_1]"><a class="text-black dark:text-white italic border-dashed border-b pb-1 border-gray-500 hover:delay-[300ms] hover:border-dashed hover:border-t hover:border-fuchsia-600 hover:border-b-0 dark:hover:text-fuchsia-400 hover:text-fuchsia-600 font-semibold" href="#">About</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="flex flex-col gap-2 md:gap-5">
+                                    <li class="hover:animate-[swing_1s_ease-in-out_1] dark:hover:animate-[swing_1s_ease-in-out_1]"><a class="text-black dark:text-white italic border-dashed border-b pb-1 border-gray-500 hover:delay-[300ms] hover:border-dashed hover:border-t hover:border-fuchsia-600 hover:border-b-0 dark:hover:text-fuchsia-400 hover:text-fuchsia-600 font-semibold" href="#">Pages</a></li>
+                                    <li class="hover:animate-[swing_1s_ease-in-out_1] dark:hover:animate-[swing_1s_ease-in-out_1]"><a class="text-black dark:text-white italic border-dashed border-b pb-1 border-gray-500 hover:delay-[300ms] hover:border-dashed hover:border-t hover:border-fuchsia-600 hover:border-b-0 dark:hover:text-fuchsia-400 hover:text-fuchsia-600 font-semibold" href="#">Blocks</a></li>
+                                    <li class="hover:animate-[swing_1s_ease-in-out_1] dark:hover:animate-[swing_1s_ease-in-out_1]"><a class="text-black dark:text-white italic border-dashed border-b pb-1 border-gray-500 hover:delay-[300ms] hover:border-dashed hover:border-t hover:border-fuchsia-600 hover:border-b-0 dark:hover:text-fuchsia-400 hover:text-fuchsia-600 font-semibold" href="tel:+998931633839">Contact</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="flex flex-col gap-2 md:gap-5">
+                                    <li class="hover:animate-[swing_1s_ease-in-out_1] dark:hover:animate-[swing_1s_ease-in-out_1]"><a class="text-black dark:text-white italic border-dashed border-b pb-1 border-gray-500 hover:delay-[300ms] hover:border-dashed hover:border-t hover:border-fuchsia-600 hover:border-b-0 dark:hover:text-fuchsia-400 hover:text-fuchsia-600 font-semibold" href="#">FAQs</a></li>
+                                    <li class="hover:animate-[swing_1s_ease-in-out_1] dark:hover:animate-[swing_1s_ease-in-out_1]"><a class="text-black dark:text-white italic border-dashed border-b pb-1 border-gray-500 hover:delay-[300ms] hover:border-dashed hover:border-t hover:border-fuchsia-600 hover:border-b-0 dark:hover:text-fuchsia-400 hover:text-fuchsia-600 font-semibold" href="#">Community</a></li>
+                                    <li class="hover:animate-[swing_1s_ease-in-out_1] dark:hover:animate-[swing_1s_ease-in-out_1]"><a class="text-black dark:text-white italic border-dashed border-b pb-1 border-gray-500 hover:delay-[300ms] hover:border-dashed hover:border-t hover:border-fuchsia-600 hover:border-b-0 dark:hover:text-fuchsia-400 hover:text-fuchsia-600 font-semibold" href="#">Privacy Policy</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                    
+                    
+                    
+                    <form class="max-w-sm mx-auto pt-5 md:pt-0">
+                        <label for="email-address-icon" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Email..</label>
+                        <div class="flex gap-2">
+                            <div class="relative">
+                                <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+                                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                                        <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+                                        <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+                                    </svg>
+                                </div>
+                                <input class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:valid:outline-blue-700 focus:valid:text-blue-500 focus:invalid:outline-fuchsia-700 focus:invalid:text-fuchsia-500" type="text" id="email-address-icon" placeholder="name@example.com" minlength="3" required/>
+                            </div>
+                            <button class="p-2 text-white bg-fuchsia-600 rounded-md hover:bg-blue-400 hover:duration-300 dark:text-white" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                    
+                    
+                </div>
+                
+            </div>
+            <div class="border-t-2 border-dotted border-black dark:invert pt-5 flex items-center justify-center lg:justify-between flex-wrap">
+                <p class="text-black/60 font-medium hover:text-black hover:duration-1000 text-[12px] sm:text-[18px]">© 2024 Your Company, Inc. All rights reserved.</p>
+                
+                <ul class="flex gap-10 flex-wrap mt-3 lg:mt-0 justify-center">
+                    <li>
+                        <ul class="flex gap-10">
+                            <li><a href="#"><img class="w-[25px] h-[25px] hover:animate-[swing_1s_ease-in-out_1]" src="./assets/icons/twitter-1.svg" width="40" height="40" alt="twitter logo"></a></li>
+                            <li><a href="#"><img class="w-[25px] h-[25px] hover:animate-[swing_1s_ease-in-out_1]" src="./assets/icons/instagram-7.svg" width="40" height="40" alt="instagram logo"></a></li>
+                            <li><a href="https://t.me/pain_0_7"><img class="w-[25px] h-[25px] hover:animate-[swing_1s_ease-in-out_1]" src="./assets/icons/telegram-3.svg" width="40" height="40" alt="telegram log"></a></li>
+                            <li><a href="#"><img class="w-[25px] h-[25px] hover:animate-[swing_1s_ease-in-out_1]" src="./assets/icons/skype-6.svg" width="40" height="40" alt="skype logo"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="flex gap-10">
+                            <li><a href="#"><img class="w-[25px] h-[25px] hover:animate-[swing_1s_ease-in-out_1]" src="./assets/icons/github-5.svg" width="40" height="40" alt="github logo"></a></li>  
+                            <li><a href="#"><img class="w-[25px] h-[25px] hover:animate-[swing_1s_ease-in-out_1]" src="./assets/icons/youtube-4.svg" width="40" height="40" alt="youtube logo"></a></li> 
+                            <li><a href="#"><img class="w-[25px] h-[25px] hover:animate-[swing_1s_ease-in-out_1]" src="./assets/icons/pubg-1.svg" width="40" height="40" alt="pubg logo"></a></li>
+                            <li><a href="#"><img class="w-[25px] h-[25px] hover:animate-[swing_1s_ease-in-out_1]" src="./assets/icons/facebook-1.svg" width="40" height="40" alt="facebook logo"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <button class="theme-btn fixed bottom-5 left-2 bg-black text-white dark:text-black hover:transform hover:scale-95 dark:bg-white dark:border-dotted dark:border-2 dark:border-yellow-600 w-10 h-10 text-center p-1 rounded-full" type="button">🌙</button>
+    </footer>    
+    <!-- FOOATER END -->
+    
+    <script src="./js/spaghetti.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
